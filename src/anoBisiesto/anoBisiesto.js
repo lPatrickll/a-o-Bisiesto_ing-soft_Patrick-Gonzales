@@ -1,5 +1,8 @@
 function esBisiesto(ano) {
-    return true;
+    if (ano % 4 === 0)
+        return true;
+    else
+        return false;
 }
 
 export default esBisiesto;

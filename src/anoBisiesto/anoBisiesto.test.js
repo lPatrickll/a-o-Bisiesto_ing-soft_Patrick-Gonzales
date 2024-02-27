@@ -5,5 +5,7 @@ describe("Sumar", () => {
         expect(esBisiesto(2024)).toEqual(true);
     });
 
-    
+    it("deberia darnos que no es bisiesto por ejemplo 2023", () => {
+        expect(esBisiesto(2023)).toEqual(false);
+    });
 });
