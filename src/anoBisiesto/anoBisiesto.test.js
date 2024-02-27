@@ -8,4 +8,8 @@ describe("Sumar", () => {
     it("deberia darnos que no es bisiesto por ejemplo 2023", () => {
         expect(esBisiesto(2023)).toEqual(false);
     });
+
+    it("deberia darnos que no es bisiesto por ejemplo 100", () => {
+        expect(esBisiesto(100)).toEqual(false);
+    });
 });
